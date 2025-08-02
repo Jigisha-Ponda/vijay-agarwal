@@ -1,0 +1,103 @@
+ <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-2 text-center">
+                <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 style="color: rgb(149, 22, 149);">Invest in your professional goals with Indigo-Trainings</h1>
+                    <br>
+                    <!-- <p class="mb-5">Get unlimited access to over 90% of courses, Projects, Specializations, and
+                        Professional Certificates on Coursera, taught by top instructors.</p> -->
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center pt-3 shadow">
+                        <div class="p-4">
+                            <img src="img/icon1.png" alt="" width="60px" class="mb-4">
+                            <h5 class="mb-3">Learn anything</h5>
+                            <p>Explore any interest or trending topic, take prerequisites, and advance your skills</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item text-center pt-3 shadow">
+                        <div class="p-4">
+                            <img src="img/icon2.png" alt="" width="60px" class="mb-4">
+                            <h5 class="mb-3">Save money</h5>
+                            <p>Spend less money on your learning if you plan to take multiple courses this year</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item text-center pt-3 shadow">
+                        <div class="p-4">
+                            <img src="img/icon3.png" alt="" width="60px" class="mb-4">
+                            <h5 class="mb-3">Flexible learning</h5>
+                            <p>Learn at your own pace, move between multiple courses, or switch to a different course
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3 shadow">
+                        <div class="p-4">
+                            <img src="img/icon4.png" alt="" width="60px" class="mb-4">
+                            <h5 class="mb-3">Unlimited certificates</h5>
+                            <p>Earn a certificate for every learning program that you complete at no additional cost</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            
+            <div class="row g-2 m-2">
+                <div class="col-lg-4 col-md-4  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s" style="height: 600px;">
+
+                        <img src="https://www.svgrepo.com/show/344655/clipboard-data.svg" class="img-fluid" alt="categories" style="width: 100px; height: 100px;"></i>
+
+                        <h5 class="my-2">
+                            <h2 class="text-center" >It starts with <br>self-awareness</h2>
+                            <br><br>
+                            <p class="text-center" style="font-size: 20px;">EEQ™ begins with understanding the energy you bring into every room, call, or conversation. Are you uplifting or
+                                 draining? Present or distracted? Calm or chaotic? This awareness is the first step toward intentional impact.</p>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s" style="height: 600px;">
+
+                        <img src="https://static.vecteezy.com/system/resources/previews/034/332/624/non_2x/game-jewelry-gem-raspberry-fantasy-brilliant-hexagonal-piece-of-rock-cartoon-illustration-vector.jpg" class="img-fluid" alt="categories" style="width: 100px; height: 100px;"></i>
+
+                        <h5 class="my-2">
+                            <!-- <a href="#" class="text-center"> AWS</a> -->
+                            <h2 class="text-center" >It strengthens team <br>dynamics</h2>
+                            <br><br>
+                            <p class="text-center" style="font-size: 20px;">When individuals manage their energy mindfully, teams become more collaborative, empathetic, and psychologically safe. EEQ™ fosters emotional alignment, reduces friction, and creates space for trust to thrive.</p>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s" style="height: 600px;">
+
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0XOs6Ie-iUd88YbnLBoT6oaDNXK95AM2w-A&s" class="img-fluid" alt="categories" style="width: 100px; height: 100px;"></i>
+
+                        <h5 class="my-2">
+                            <!-- <a href="#" class="text-center"> AWS</a> -->
+                            <h2 class="text-center" >It shapes organizational <br>culture</h2>
+                            <br><br>
+                            <p class="text-center" style="font-size: 20px;">Over time, these energy-aware interactions build a culture that feels focused, energized, and human.
+                                 EEQ™ helps organizations move from unconscious reactivity to conscious impact — one exchange at a time.</p>
+                        </h5>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+     #4A90E2
