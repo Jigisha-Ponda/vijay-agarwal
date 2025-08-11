@@ -253,6 +253,19 @@
   /* Optional: make the footer links look like links if you use buttons instead */
   .footer-link { cursor: pointer; }
 
+  .badge-responsive {
+  display: inline-block;
+  white-space: normal; /* Allow text to wrap */
+  text-align: center;
+  width: 100%; /* Take full container width */
+  font-size: clamp(0.9rem, 2.5vw, 1.2rem); /* Scales between mobile & desktop */
+  padding: 0.6em 1em;
+  background-color: #F4DD8A;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+
 /* Privacy policy code end */
 
 body{
