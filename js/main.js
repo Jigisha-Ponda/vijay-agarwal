@@ -109,5 +109,61 @@
 
 
 
+// This below code is of privacy and policy and confidential notice
+document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('.footer-link');
+    const overlay = document.getElementById('modalOverlay');
+    const titleEl = document.getElementById('modalTitle');
+    const contentEl = document.getElementById('modalContent');
+    const closeBtn = document.getElementById('modalClose');
 
+    // Open modal with data from data- attributes
+    links.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault(); // stop page jump
+        const title = link.dataset.title || link.textContent.trim();
+        const content = link.dataset.content || '';
+        titleEl.textContent = title;
+        contentEl.textContent = content;
+        overlay.classList.add('show');
+        overlay.setAttribute('aria-hidden', 'false');
+        // prevent background scroll while modal is open
+        document.body.style.overflow = 'hidden';
+        // focus sent to close for keyboard users
+        closeBtn.focus();
+      });
+    });
+
+    function closeModal() {
+      overlay.classList.remove('show');
+      overlay.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+
+    // close via ×
+    closeBtn.addEventListener('click', closeModal);
+
+    // close when clicking on the overlay (outside the modal box)
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) closeModal();
+    });
+
+    // close on ESC
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && overlay.classList.contains('show')) closeModal();
+    });
+  });
+
+
+function downloadImage() {
+    // Relative path to your image inside vijayimg folder
+    const imagePath = "vijay img/Cheatsheet.jpg"; 
+
+    const link = document.createElement("a");
+    link.href = imagePath;
+    link.download = "Executive_Conference_Cheatsheet.jpg"; // file name for download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
 
