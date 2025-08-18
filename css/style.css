@@ -264,7 +264,38 @@
   border-radius: 50px;
   font-weight: 600;
 }
+/* Gallery */
+.gallery-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
 
+.gallery-img img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.gallery-img:hover img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 576px) {
+  .gallery-img img {
+    height: 200px;
+  }
+}
+
+/* end */
+.gallery-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* Ensures no distortion, crops excess */
+    border-radius: 8px; /* Optional for rounded corners */
+}
 
 /* Privacy policy code end */
 
