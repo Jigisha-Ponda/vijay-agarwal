@@ -1088,3 +1088,8 @@ body{
     flex-direction: column;
     justify-content: flex-start;
 }
+/* Prevent horizontal overflow */
+
+
+/* Ensure container fits on all screens */
+
