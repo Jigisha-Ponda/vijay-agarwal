@@ -11,8 +11,8 @@
     opacity: 1;
   }
 }
-.hero-section {
-      /* background: linear-gradient(to bottom right, #2c2c2c, #1a1a1a); */
+/* .hero-section {
+      /* background: linear-gradient(to bottom right, #2c2c2c, #1a1a1a); 
       color: white;
       border-radius: 12px;
       padding: 40px 30px;
@@ -22,7 +22,7 @@
     }
 
     .hero-section .highlight {
-      color: #F4DD8A; /* Yellow-Green Highlight */
+      color: #F4DD8A; /* Yellow-Green Highlight 
       font-weight: bold;
     }
 
@@ -61,7 +61,67 @@
         left: 20%;
         width: 60%;
       }
+    } */
+
+.hero-section {
+      color: white;
+      border-radius: 12px;
+      padding: 40px 30px;
+      position: relative;
+      overflow: hidden;
     }
+
+    .hero-section .highlight {
+      color: #F4DD8A;
+      font-weight: bold;
+    }
+
+.yellow-bar {
+  position: absolute;
+  right: 0;
+  top: 15%;
+  width: 50px;
+  height: 70%;
+  background: #F4DD8A;
+  border-radius: 4px;
+}
+
+.yellow-strip {
+  position: absolute;
+  bottom: 0; 
+  left: 50%;
+  transform: translateX(-45%); 
+  width: 250px; 
+  height: 15px;
+  background: #F4DD8A;
+  border-radius: 100px;
+  z-index: 3; 
+}
+
+.person-img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  z-index: 2;
+  position: relative;
+  border-radius: 12px; 
+}
+
+    @media (max-width: 992px) {
+  .yellow-bar {
+    display: none;
+  }
+  .yellow-strip {
+    left: 50%; /* Centered for smaller screens */
+    transform: translateX(-50%);
+    width: 60%; /* Responsive width */
+  }
+  .person-img {
+    width: 100%;
+    height: auto; /* Allow height to adjust on smaller screens */
+    border-radius: 8px; /* Slightly less rounded for smaller screens if preferred */
+  }
+}
 
 /* Common animation class */
 .impact-card {
@@ -1093,3 +1153,50 @@ body{
 
 /* Ensure container fits on all screens */
 
+/* This rule is for the "Book your call" button */
+.d-flex.justify-content-center a.book-call-btn {
+  background-color: rgb(225, 225, 54) !important;
+  color: black !important;
+  width: 60% !important;
+  border-radius: 50px !important;
+  padding: 12px 20px !important;
+  font-size: 1.1rem;
+  white-space: nowrap; /* Keeps the text on a single line */
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .d-flex.justify-content-center a.book-call-btn {
+    width: 80% !important;
+    font-size: 1rem;
+    padding: 10px 15px !important;
+  }
+}
+
+/* Base styles for all social buttons */
+.btn-social-icon {
+  width: 60%;
+  border-radius: 50px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+/* Styles for the LinkedIn button */
+.btn-social-icon.linkedin-btn {
+  background-color: #0077b5 !important;
+  color: #ffffff !important;
+}
+
+/* Styles for the X button */
+.btn-social-icon.x-btn {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* This makes sure the icon color is white */
+.btn-social-icon i {
+  color: inherit;
+}
